@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import coins from './Coins';
-import coin from './Coin';
+import name from './name';
+import price from './price';
 
 export default combineReducers({
-  coins,
-  coin
+  name,
+  price
 });
