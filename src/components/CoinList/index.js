@@ -1,11 +1,24 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { IMG_URL } from '../../constants';
 
 const CoinList = ({ coins }) =>
   <div>
     {Object.values(coins).map((coin) =>
-      <div className="col-md-1">
-        <img src={'https://www.cryptocompare.com/' + coin.ImageUrl} height="100" width="100" alt={coin.CoinName} />
+      <div key={coin.Id} className="media">
+        <div className="media-left">
+          <img
+            src={`${IMG_URL}${coin.ImageUrl}`}
+            alt={coin.CoinName}
+            className="media-object"
+            height="64"
+            width="64"
+          />
+        </div>
+        <div className="media-body">
+          <h4 className="media-heading">{coin.CoinName}</h4>
+          <p>Algorithm: {coin.Algorithm}</p>
+        </div>
       </div>
     )}
   </div>
