@@ -25253,23 +25253,58 @@ var _temp = function () {
 var App = function App() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
-    { className: 'container-fluid' },
+    null,
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'div',
-      { className: 'row' },
+      'nav',
+      { className: 'navbar navbar-inverse navbar-fixed-top' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: 'col-md-12' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__CoinDetails__["a" /* default */], null)
+        { className: 'container' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'navbar-header' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'a',
+            { className: 'navbar-brand', href: 'https://divxzero.github.io/crypt-keeper/' },
+            'Crypt-Keeper'
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'navbar-right' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__CoinDetails__["a" /* default */], null)
+        )
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
-      { className: 'row' },
+      { className: 'jumbotron' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: 'col-md-12' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__CoinList__["a" /* default */], null)
+        { className: 'container' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'h1',
+          null,
+          'Crypt-Keeper'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          null,
+          'Track and compare all crypto-currencies!'
+        )
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'container-fluid' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'row' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'col-md-12' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__CoinList__["a" /* default */], null)
+        )
       )
     )
   );
@@ -25393,11 +25428,20 @@ var CoinDetails = function CoinDetails(_ref) {
   var coin = _ref.coin;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
-    null,
+    { className: 'navbar-text' },
     'Current Coin: ',
-    coin.name,
-    ', Price: ',
-    coin.price
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'span',
+      { className: 'badge badge-warning' },
+      coin.name
+    ),
+    ' ',
+    'Price(USD): ',
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'span',
+      { className: 'badge badge-success' },
+      coin.price
+    )
   );
 };
 
