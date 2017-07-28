@@ -25103,15 +25103,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SET_CURRENT_COIN, 'SET_CURRENT_COIN', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coin/index.js');
+  __REACT_HOT_LOADER__.register(SET_CURRENT_COIN, 'SET_CURRENT_COIN', '/Users/nick/projects/crypt-keeper/src/actions/Coin/index.js');
 
-  __REACT_HOT_LOADER__.register(SET_COIN_PRICE, 'SET_COIN_PRICE', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coin/index.js');
+  __REACT_HOT_LOADER__.register(SET_COIN_PRICE, 'SET_COIN_PRICE', '/Users/nick/projects/crypt-keeper/src/actions/Coin/index.js');
 
-  __REACT_HOT_LOADER__.register(setCurrentCoin, 'setCurrentCoin', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coin/index.js');
+  __REACT_HOT_LOADER__.register(setCurrentCoin, 'setCurrentCoin', '/Users/nick/projects/crypt-keeper/src/actions/Coin/index.js');
 
-  __REACT_HOT_LOADER__.register(setCoinPrice, 'setCoinPrice', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coin/index.js');
+  __REACT_HOT_LOADER__.register(setCoinPrice, 'setCoinPrice', '/Users/nick/projects/crypt-keeper/src/actions/Coin/index.js');
 
-  __REACT_HOT_LOADER__.register(getCoinPrice, 'getCoinPrice', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coin/index.js');
+  __REACT_HOT_LOADER__.register(getCoinPrice, 'getCoinPrice', '/Users/nick/projects/crypt-keeper/src/actions/Coin/index.js');
 }();
 
 ;
@@ -25155,11 +25155,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SET_COINS, 'SET_COINS', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coins/index.js');
+  __REACT_HOT_LOADER__.register(SET_COINS, 'SET_COINS', '/Users/nick/projects/crypt-keeper/src/actions/Coins/index.js');
 
-  __REACT_HOT_LOADER__.register(getCoins, 'getCoins', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coins/index.js');
+  __REACT_HOT_LOADER__.register(getCoins, 'getCoins', '/Users/nick/projects/crypt-keeper/src/actions/Coins/index.js');
 
-  __REACT_HOT_LOADER__.register(setCoins, 'setCoins', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/actions/Coins/index.js');
+  __REACT_HOT_LOADER__.register(setCoins, 'setCoins', '/Users/nick/projects/crypt-keeper/src/actions/Coins/index.js');
 }();
 
 ;
@@ -25227,11 +25227,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(store, 'store', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/app.js');
+  __REACT_HOT_LOADER__.register(store, 'store', '/Users/nick/projects/crypt-keeper/src/app.js');
 
-  __REACT_HOT_LOADER__.register(container, 'container', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/app.js');
+  __REACT_HOT_LOADER__.register(container, 'container', '/Users/nick/projects/crypt-keeper/src/app.js');
 
-  __REACT_HOT_LOADER__.register(appRender, 'appRender', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/app.js');
+  __REACT_HOT_LOADER__.register(appRender, 'appRender', '/Users/nick/projects/crypt-keeper/src/app.js');
 }();
 
 ;
@@ -25319,9 +25319,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(App, 'App', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/App/index.js');
+  __REACT_HOT_LOADER__.register(App, 'App', '/Users/nick/projects/crypt-keeper/src/components/App/index.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/App/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/components/App/index.js');
 }();
 
 ;
@@ -25403,11 +25403,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Coin, 'Coin', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/Coin/index.js');
+  __REACT_HOT_LOADER__.register(Coin, 'Coin', '/Users/nick/projects/crypt-keeper/src/components/Coin/index.js');
 
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/Coin/index.js');
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', '/Users/nick/projects/crypt-keeper/src/components/Coin/index.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/Coin/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/components/Coin/index.js');
 }();
 
 ;
@@ -25462,11 +25462,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CoinDetails, 'CoinDetails', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinDetails/index.js');
+  __REACT_HOT_LOADER__.register(CoinDetails, 'CoinDetails', '/Users/nick/projects/crypt-keeper/src/components/CoinDetails/index.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinDetails/index.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/nick/projects/crypt-keeper/src/components/CoinDetails/index.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinDetails/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/components/CoinDetails/index.js');
 }();
 
 ;
@@ -25513,11 +25513,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CoinList, 'CoinList', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinList/index.js');
+  __REACT_HOT_LOADER__.register(CoinList, 'CoinList', '/Users/nick/projects/crypt-keeper/src/components/CoinList/index.js');
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinList/index.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/nick/projects/crypt-keeper/src/components/CoinList/index.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinList/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/components/CoinList/index.js');
 }();
 
 ;
@@ -25541,11 +25541,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(API_URL, 'API_URL', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/constants/index.js');
+  __REACT_HOT_LOADER__.register(API_URL, 'API_URL', '/Users/nick/projects/crypt-keeper/src/constants/index.js');
 
-  __REACT_HOT_LOADER__.register(IMG_URL, 'IMG_URL', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/constants/index.js');
+  __REACT_HOT_LOADER__.register(IMG_URL, 'IMG_URL', '/Users/nick/projects/crypt-keeper/src/constants/index.js');
 
-  __REACT_HOT_LOADER__.register(PRICE_API_URL, 'PRICE_API_URL', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/constants/index.js');
+  __REACT_HOT_LOADER__.register(PRICE_API_URL, 'PRICE_API_URL', '/Users/nick/projects/crypt-keeper/src/constants/index.js');
 }();
 
 ;
@@ -25583,7 +25583,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/Coin/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/reducers/Coin/index.js');
 }();
 
 ;
@@ -25619,9 +25619,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/Coin/name.js');
+  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/Users/nick/projects/crypt-keeper/src/reducers/Coin/name.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/Coin/name.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/reducers/Coin/name.js');
 }();
 
 ;
@@ -25657,9 +25657,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/Coin/price.js');
+  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/Users/nick/projects/crypt-keeper/src/reducers/Coin/price.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/Coin/price.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/reducers/Coin/price.js');
 }();
 
 ;
@@ -25695,9 +25695,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(initialState, 'initialState', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/Coins/index.js');
+  __REACT_HOT_LOADER__.register(initialState, 'initialState', '/Users/nick/projects/crypt-keeper/src/reducers/Coins/index.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/Coins/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/reducers/Coins/index.js');
 }();
 
 ;
@@ -25728,7 +25728,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/reducers/index.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/nick/projects/crypt-keeper/src/reducers/index.js');
 }();
 
 ;
