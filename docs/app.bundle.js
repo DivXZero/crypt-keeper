@@ -25253,19 +25253,23 @@ var _temp = function () {
 var App = function App() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     'div',
-    { className: 'container' },
+    { className: 'container-fluid' },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
       { className: 'row' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: 'col-md-6' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__CoinList__["a" /* default */], null)
-      ),
+        { className: 'col-md-12' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__CoinDetails__["a" /* default */], null)
+      )
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'row' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         'div',
-        { className: 'col-md-6' },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__CoinDetails__["a" /* default */], null)
+        { className: 'col-md-12' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__CoinList__["a" /* default */], null)
       )
     )
   );
@@ -25289,6 +25293,92 @@ var _temp = function () {
 
 /***/ }),
 
+/***/ "./src/components/Coin/index.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export Coin */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__("./node_modules/react-redux/es/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants__ = __webpack_require__("./src/constants/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions_Coin__ = __webpack_require__("./src/actions/Coin/index.js");
+
+
+
+
+
+var Coin = function Coin(_ref) {
+  var coin = _ref.coin,
+      setCoin = _ref.setCoin;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    { className: 'col-md-2' },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'thumbnail' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', {
+        src: '' + __WEBPACK_IMPORTED_MODULE_2__constants__["b" /* IMG_URL */] + coin.ImageUrl,
+        alt: coin.CoinName,
+        className: 'media-object',
+        height: '128',
+        width: '128'
+      }),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'caption' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'a',
+          { onClick: setCoin(coin.Name) },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h4',
+            { className: 'media-heading' },
+            coin.CoinName
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'p',
+          null,
+          'Algorithm: ',
+          coin.Algorithm
+        )
+      )
+    )
+  );
+};
+
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+  return {
+    setCoin: function setCoin(name) {
+      return function () {
+        dispatch(Object(__WEBPACK_IMPORTED_MODULE_3__actions_Coin__["d" /* setCurrentCoin */])(name));
+        dispatch(Object(__WEBPACK_IMPORTED_MODULE_3__actions_Coin__["c" /* getCoinPrice */])(name));
+      };
+    }
+  };
+};
+
+var _default = Object(__WEBPACK_IMPORTED_MODULE_1_react_redux__["b" /* connect */])(null, mapDispatchToProps)(Coin);
+
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Coin, 'Coin', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/Coin/index.js');
+
+  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/Coin/index.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/Coin/index.js');
+}();
+
+;
+
+/***/ }),
+
 /***/ "./src/components/CoinDetails/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -25296,8 +25386,6 @@ var _temp = function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__("./node_modules/react-redux/es/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants__ = __webpack_require__("./src/constants/index.js");
-
 
 
 
@@ -25348,54 +25436,18 @@ var _temp = function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/react.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__("./node_modules/react-redux/es/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constants__ = __webpack_require__("./src/constants/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__actions_Coin__ = __webpack_require__("./src/actions/Coin/index.js");
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Coin__ = __webpack_require__("./src/components/Coin/index.js");
 
 
 
 
 var CoinList = function CoinList(_ref) {
-  var coins = _ref.coins,
-      setCoin = _ref.setCoin;
+  var coins = _ref.coins;
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'ul',
-    { className: 'media-list' },
+    'div',
+    { className: 'row' },
     Object.values(coins).map(function (coin) {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        {
-          key: coin.Id,
-          onClick: setCoin(coin.Name),
-          className: 'media'
-        },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'media-left' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', {
-            src: '' + __WEBPACK_IMPORTED_MODULE_2__constants__["b" /* IMG_URL */] + coin.ImageUrl,
-            alt: coin.CoinName,
-            className: 'media-object',
-            height: '64',
-            width: '64'
-          })
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'div',
-          { className: 'media-body' },
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'h4',
-            { className: 'media-heading' },
-            coin.CoinName
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            null,
-            'Algorithm: ',
-            coin.Algorithm
-          )
-        )
-      );
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__Coin__["a" /* default */], { key: coin.Id, coin: coin });
     })
   );
 };
@@ -25407,18 +25459,7 @@ var mapStateToProps = function mapStateToProps(_ref2) {
   };
 };
 
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-  return {
-    setCoin: function setCoin(name) {
-      return function () {
-        dispatch(Object(__WEBPACK_IMPORTED_MODULE_3__actions_Coin__["d" /* setCurrentCoin */])(name));
-        dispatch(Object(__WEBPACK_IMPORTED_MODULE_3__actions_Coin__["c" /* getCoinPrice */])(name));
-      };
-    }
-  };
-};
-
-var _default = Object(__WEBPACK_IMPORTED_MODULE_1_react_redux__["b" /* connect */])(mapStateToProps, mapDispatchToProps)(CoinList);
+var _default = Object(__WEBPACK_IMPORTED_MODULE_1_react_redux__["b" /* connect */])(mapStateToProps)(CoinList);
 
 /* harmony default export */ __webpack_exports__["a"] = (_default);
 ;
@@ -25431,8 +25472,6 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(CoinList, 'CoinList', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinList/index.js');
 
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinList/index.js');
-
-  __REACT_HOT_LOADER__.register(mapDispatchToProps, 'mapDispatchToProps', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinList/index.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', 'C:/Users/nick/Documents/Projects/crypt-keeper/src/components/CoinList/index.js');
 }();
